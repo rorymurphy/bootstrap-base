@@ -1,0 +1,84 @@
+{
+    "Template": "Bootstrap-3.1.1",
+    "EntrypointFiles": {
+    	"less/theme.less": "css/theme.css",
+        "less/bootstrap/bootstrap.less": "css/bootstrap/bootstrap.css"
+    },
+
+
+    "VariablesFile": "less/variables.less",
+    "Variables": [
+        {
+            "Name":"header-background",
+            "Category":"Header",
+            "Type":"color",
+            "Title":"Header Background Color",
+            "Description":"Header Background Color",
+            "DefaultValue":"#333344",
+            "Order": 1001
+        },
+        {
+            "Name":"header-height",
+            "Category":"Header",
+            "Type":"size-scalar",
+            "Title":"Header Height",
+            "Description":"Header Background Color",
+            "DefaultValue":"80px",
+            "Order": 1002
+        },
+        {
+            "Name":"logo-height",
+            "Category":"Logo",
+            "Type":"size-scalar",
+            "Title":"Logo Height",
+            "Description":"Header Background Color",
+            "DefaultValue":"auto",
+            "Order": 1003
+        },
+        {
+            "Name":"logo-width",
+            "Category":"Logo",
+            "Type":"size-scalar",
+            "Title":"Logo Width",
+            "Description":"Header Background Color",
+            "DefaultValue":"auto",
+            "Order": 1004
+        },
+        {
+            "Name":"logo-position",
+            "Category":"Logo",
+            "Type":"size-scalar",
+            "Title":"Logo Position",
+            "Description":"Header Background Color",
+            "DefaultValue":"absolute",
+            "Order": 1005
+        },
+        {
+            "Name":"logo-top",
+            "Category":"Logo",
+            "Type":"size-scalar",
+            "Title":"Logo Top",
+            "Description":"Header Background Color",
+            "DefaultValue":"0",
+            "Order": 1006
+        },
+        {
+            "Name":"logo-left",
+            "Category":"Header",
+            "Type":"size-scalar",
+            "Title":"Logo Left",
+            "Description":"Header Background Color",
+            "DefaultValue":"0",
+            "Order": 1007
+        },
+        {
+            "Name":"logo-navbar-padding-left",
+            "Category":"Logo",
+            "Type":"size-scalar",
+            "Title":"Logo Navbar Padding Left",
+            "Description":"Header Background Color",
+            "DefaultValue":"0",
+            "Order": 1008
+        }
+    ]
+}

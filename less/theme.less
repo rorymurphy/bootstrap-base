@@ -1,0 +1,65 @@
+@import "bootstrap/bootstrap.less";
+@import "overrides.less";
+
+#container {
+    width: 100%;
+    max-width: @container-desktop;
+    margin: auto;   
+}
+
+.header{
+    position: relative;
+    //padding-bottom: @navbar-height;
+    background: @header-background;
+    min-height: @header-height;
+    
+    .header-inner{
+        position: relative;
+        
+        .header-image{
+            position: @logo-position;
+            top: @logo-top;
+            left: @logo-left;
+            height: @logo-height;
+            width: @logo-width;
+        }
+    }
+    
+
+    
+    .navbar{
+        position: relative;
+        top: @header-height - @navbar-height;
+        //bottom: -@navbar-margin-bottom;
+        left: 0;
+        right: 0;
+        
+        padding-left: @logo-navbar-padding-left;
+    }
+}
+
+footer{
+    
+    ul.menu{
+        list-style-type: none;
+        padding-left: 0;
+        li{
+            float: left;
+            padding: 0px 10px;
+            border-left: solid 1px @gray-light;
+            font-size: @font-size-small;
+
+            &:first-child{
+                border-left: none;
+                padding-left: 0;
+            }
+            
+            a{
+                color: @gray-light;
+                &:hover,&:active,&:visited{
+                    color: @gray-light;
+                }
+            }
+        }
+    }
+}
